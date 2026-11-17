@@ -16,7 +16,7 @@ function Frame() {
   return (
     <div className="content-stretch flex gap-[8px] items-center relative shrink-0 w-full">
       <IcArrow />
-      <div className="[word-break:break-word] flex flex-col font-['Pretendard:Regular',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#303030] text-[18px] whitespace-nowrap">
+      <div className="[word-break:break-word] flex flex-col font-sans font-normal justify-center leading-[0] not-italic relative shrink-0 text-[#303030] text-[18px] whitespace-nowrap">
         <p className="leading-[normal]">업무일지 작성</p>
       </div>
     </div>
@@ -37,7 +37,7 @@ function Frame18() {
 
 function Frame11() {
   return (
-    <div className="[word-break:break-word] content-stretch flex font-['Pretendard:Regular',sans-serif] gap-[2px] items-start leading-[0] not-italic relative shrink-0 text-[14px] w-full whitespace-nowrap">
+    <div className="[word-break:break-word] content-stretch flex font-sans font-normal gap-[2px] items-start leading-[0] not-italic relative shrink-0 text-[14px] w-full whitespace-nowrap">
       <div className="flex flex-col justify-center relative shrink-0 text-black">
         <p className="leading-[1.5]">돌봄지도사</p>
       </div>
@@ -54,7 +54,7 @@ function Frame7() {
       <div className="bg-[#f5f5f5] flex-[1_0_0] h-[40px] min-w-px relative rounded-[6px]" data-name="input-type01">
         <div className="flex flex-row items-center overflow-clip rounded-[inherit] size-full">
           <div className="content-stretch flex items-center px-[10px] py-[8px] relative size-full">
-            <div className="[word-break:break-word] flex flex-[1_0_0] flex-col font-['Pretendard:Regular',sans-serif] h-[24px] justify-center leading-[0] min-w-px not-italic relative text-[#616161] text-[14px]" style={{ fontFeatureSettings: '"case"' }}>
+            <div className="[word-break:break-word] flex flex-[1_0_0] flex-col font-sans font-normal h-[24px] justify-center leading-[0] min-w-px not-italic relative text-[#616161] text-[14px]" style={{ fontFeatureSettings: '"case"' }}>
               <p className="leading-[1.5]">홍길동</p>
             </div>
           </div>
@@ -76,7 +76,7 @@ function Frame1() {
 
 function Frame12() {
   return (
-    <div className="[word-break:break-word] content-stretch flex font-['Pretendard:Regular',sans-serif] gap-[2px] items-start leading-[0] not-italic relative shrink-0 text-[14px] w-full whitespace-nowrap">
+    <div className="[word-break:break-word] content-stretch flex font-sans font-normal gap-[2px] items-start leading-[0] not-italic relative shrink-0 text-[14px] w-full whitespace-nowrap">
       <div className="flex flex-col justify-center relative shrink-0 text-black">
         <p className="leading-[1.5]">활동 날짜 및 시간</p>
       </div>
@@ -134,7 +134,7 @@ function Group2() {
 function WrapContents() {
   return (
     <div className="content-stretch flex gap-[8px] items-center relative shrink-0 w-full" data-name="wrap_contents">
-      <div className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] flex flex-[1_0_0] flex-col font-['Pretendard:Regular',sans-serif] h-[24px] justify-center leading-[0] min-w-px not-italic relative text-[#141414] text-[14px]">
+      <div className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] flex flex-[1_0_0] flex-col font-sans font-normal h-[24px] justify-center leading-[0] min-w-px not-italic relative text-[#141414] text-[14px]">
         <p className="leading-[1.5]">2026-06-30</p>
       </div>
       <div className="relative shrink-0 size-[24px]" data-name="ic_calendar-date-02_default_line_normal_color01_20">
@@ -173,7 +173,7 @@ function Group() {
 function WrapContents1() {
   return (
     <div className="content-stretch flex gap-[8px] items-center relative shrink-0 w-full" data-name="wrap_contents">
-      <div className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] flex flex-[1_0_0] flex-col font-['Pretendard:Regular',sans-serif] h-[24px] justify-center leading-[0] min-w-px not-italic relative text-[#141414] text-[14px]">
+      <div className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] flex flex-[1_0_0] flex-col font-sans font-normal h-[24px] justify-center leading-[0] min-w-px not-italic relative text-[#141414] text-[14px]">
         <p className="leading-[1.5]">10:00</p>
       </div>
       <div className="relative shrink-0 size-[24px]" data-name="ic_clock_default_line_normal_black_16">
@@ -200,7 +200,7 @@ function Group1() {
 function WrapContents2() {
   return (
     <div className="content-stretch flex gap-[8px] items-center relative shrink-0 w-full" data-name="wrap_contents">
-      <div className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] flex flex-[1_0_0] flex-col font-['Pretendard:Regular',sans-serif] h-[24px] justify-center leading-[0] min-w-px not-italic relative text-[#141414] text-[14px]">
+      <div className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] flex flex-[1_0_0] flex-col font-sans font-normal h-[24px] justify-center leading-[0] min-w-px not-italic relative text-[#141414] text-[14px]">
         <p className="leading-[1.5]">11:40</p>
       </div>
       <div className="relative shrink-0 size-[24px]" data-name="ic_clock_default_line_normal_black_16">
@@ -220,7 +220,7 @@ function SelectBoxPeriod1() {
           <WrapContents1 />
         </div>
       </div>
-      <div className="[word-break:break-word] flex flex-col font-['Pretendard:Medium',sans-serif] h-[36px] justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-[rgba(20,20,20,0.7)] text-center w-[16px]">
+      <div className="[word-break:break-word] flex flex-col font-sans font-medium h-[36px] justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-[rgba(20,20,20,0.7)] text-center w-[16px]">
         <p className="leading-[1.5]">~</p>
       </div>
       <div className="bg-white flex-[1_0_0] min-w-px relative rounded-[4px]" data-name="time-picker">
@@ -245,7 +245,7 @@ function Frame2() {
 
 function Frame13() {
   return (
-    <div className="[word-break:break-word] content-stretch flex font-['Pretendard:Regular',sans-serif] gap-[2px] items-start leading-[0] not-italic relative shrink-0 text-[14px] w-full whitespace-nowrap">
+    <div className="[word-break:break-word] content-stretch flex font-sans font-normal gap-[2px] items-start leading-[0] not-italic relative shrink-0 text-[14px] w-full whitespace-nowrap">
       <div className="flex flex-col justify-center relative shrink-0 text-black">
         <p className="leading-[1.5]">경로당</p>
       </div>
@@ -273,7 +273,7 @@ function Normal() {
 function WrapContents3() {
   return (
     <div className="content-stretch flex gap-[8px] items-center relative shrink-0 w-full" data-name="wrap_contents">
-      <div className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] flex flex-[1_0_0] flex-col font-['Pretendard:Regular',sans-serif] h-[24px] justify-center leading-[0] min-w-px not-italic relative text-[#141414] text-[14px]">
+      <div className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] flex flex-[1_0_0] flex-col font-sans font-normal h-[24px] justify-center leading-[0] min-w-px not-italic relative text-[#141414] text-[14px]">
         <p className="leading-[1.5]">에이스 경로회관</p>
       </div>
       <div className="relative shrink-0 size-[24px]" data-name="ic_arrow">
@@ -299,7 +299,7 @@ function Frame3() {
 
 function Frame14() {
   return (
-    <div className="[word-break:break-word] content-stretch flex font-['Pretendard:Regular',sans-serif] gap-[2px] items-start leading-[0] not-italic relative shrink-0 text-[14px] w-full whitespace-nowrap">
+    <div className="[word-break:break-word] content-stretch flex font-sans font-normal gap-[2px] items-start leading-[0] not-italic relative shrink-0 text-[14px] w-full whitespace-nowrap">
       <div className="flex flex-col justify-center relative shrink-0 text-black">
         <p className="leading-[1.5]">경로당 회원</p>
       </div>
@@ -327,7 +327,7 @@ function Normal1() {
 function WrapContents4() {
   return (
     <div className="content-stretch flex gap-[8px] items-center relative shrink-0 w-full" data-name="wrap_contents">
-      <div className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] flex flex-[1_0_0] flex-col font-['Pretendard:Regular',sans-serif] h-[24px] justify-center leading-[0] min-w-px not-italic relative text-[#141414] text-[14px]">
+      <div className="[text-box-edge:cap_alphabetic] [text-box-trim:trim-both] [word-break:break-word] flex flex-[1_0_0] flex-col font-sans font-normal h-[24px] justify-center leading-[0] min-w-px not-italic relative text-[#141414] text-[14px]">
         <p className="leading-[1.5]">홍길동</p>
       </div>
       <div className="relative shrink-0 size-[24px]" data-name="ic_arrow">
@@ -353,7 +353,7 @@ function Frame4() {
 
 function Frame15() {
   return (
-    <div className="[word-break:break-word] content-stretch flex font-['Pretendard:Regular',sans-serif] gap-[2px] items-start leading-[0] not-italic relative shrink-0 text-[14px] w-full whitespace-nowrap">
+    <div className="[word-break:break-word] content-stretch flex font-sans font-normal gap-[2px] items-start leading-[0] not-italic relative shrink-0 text-[14px] w-full whitespace-nowrap">
       <div className="flex flex-col justify-center relative shrink-0 text-black">
         <p className="leading-[1.5]">장비 확인 업무</p>
       </div>
@@ -374,7 +374,7 @@ function TouchArea() {
           </svg>
         </div>
       </div>
-      <div className="[word-break:break-word] flex flex-col font-['Pretendard:Regular',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-black whitespace-nowrap" style={{ fontFeatureSettings: '"case"' }}>
+      <div className="[word-break:break-word] flex flex-col font-sans font-normal justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-black whitespace-nowrap" style={{ fontFeatureSettings: '"case"' }}>
         <p className="leading-[1.5]">KIOSK 전원 ON 상태</p>
       </div>
     </div>
@@ -388,7 +388,7 @@ function TouchArea1() {
         <div className="overflow-clip relative rounded-[inherit] size-full" />
         <div aria-hidden className="absolute border-[#b8b8b8] border-[1.5px] border-solid inset-0 pointer-events-none rounded-[2px]" />
       </div>
-      <div className="[word-break:break-word] flex flex-col font-['Pretendard:Regular',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-black whitespace-nowrap" style={{ fontFeatureSettings: '"case"' }}>
+      <div className="[word-break:break-word] flex flex-col font-sans font-normal justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-black whitespace-nowrap" style={{ fontFeatureSettings: '"case"' }}>
         <p className="leading-[1.5]">KIOSK 프로그램 동작 상태</p>
       </div>
     </div>
@@ -402,7 +402,7 @@ function TouchArea2() {
         <div className="overflow-clip relative rounded-[inherit] size-full" />
         <div aria-hidden className="absolute border-[#b8b8b8] border-[1.5px] border-solid inset-0 pointer-events-none rounded-[2px]" />
       </div>
-      <div className="[word-break:break-word] flex flex-col font-['Pretendard:Regular',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-black whitespace-nowrap" style={{ fontFeatureSettings: '"case"' }}>
+      <div className="[word-break:break-word] flex flex-col font-sans font-normal justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-black whitespace-nowrap" style={{ fontFeatureSettings: '"case"' }}>
         <p className="leading-[1.5]">TV 동작 상태</p>
       </div>
     </div>
@@ -416,7 +416,7 @@ function TouchArea3() {
         <div className="overflow-clip relative rounded-[inherit] size-full" />
         <div aria-hidden className="absolute border-[#b8b8b8] border-[1.5px] border-solid inset-0 pointer-events-none rounded-[2px]" />
       </div>
-      <div className="[word-break:break-word] flex flex-col font-['Pretendard:Regular',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-black whitespace-nowrap" style={{ fontFeatureSettings: '"case"' }}>
+      <div className="[word-break:break-word] flex flex-col font-sans font-normal justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-black whitespace-nowrap" style={{ fontFeatureSettings: '"case"' }}>
         <p className="leading-[1.5]">화상회의 스피커 동작 상태</p>
       </div>
     </div>
@@ -445,7 +445,7 @@ function Frame5() {
 
 function Frame19() {
   return (
-    <div className="[word-break:break-word] content-stretch flex font-['Pretendard:Regular',sans-serif] gap-[2px] items-start leading-[0] not-italic relative shrink-0 text-[14px] w-full whitespace-nowrap">
+    <div className="[word-break:break-word] content-stretch flex font-sans font-normal gap-[2px] items-start leading-[0] not-italic relative shrink-0 text-[14px] w-full whitespace-nowrap">
       <div className="flex flex-col justify-center relative shrink-0 text-black">
         <p className="leading-[1.5]">건강관리 측정 업무</p>
       </div>
@@ -466,7 +466,7 @@ function TouchArea4() {
           </svg>
         </div>
       </div>
-      <div className="[word-break:break-word] flex flex-col font-['Pretendard:Regular',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-black whitespace-nowrap" style={{ fontFeatureSettings: '"case"' }}>
+      <div className="[word-break:break-word] flex flex-col font-sans font-normal justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-black whitespace-nowrap" style={{ fontFeatureSettings: '"case"' }}>
         <p className="leading-[1.5]">혈압</p>
       </div>
     </div>
@@ -480,7 +480,7 @@ function TouchArea5() {
         <div className="overflow-clip relative rounded-[inherit] size-full" />
         <div aria-hidden className="absolute border-[#b8b8b8] border-[1.5px] border-solid inset-0 pointer-events-none rounded-[2px]" />
       </div>
-      <div className="[word-break:break-word] flex flex-col font-['Pretendard:Regular',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-black whitespace-nowrap" style={{ fontFeatureSettings: '"case"' }}>
+      <div className="[word-break:break-word] flex flex-col font-sans font-normal justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-black whitespace-nowrap" style={{ fontFeatureSettings: '"case"' }}>
         <p className="leading-[1.5]">혈당</p>
       </div>
     </div>
@@ -494,7 +494,7 @@ function TouchArea6() {
         <div className="overflow-clip relative rounded-[inherit] size-full" />
         <div aria-hidden className="absolute border-[#b8b8b8] border-[1.5px] border-solid inset-0 pointer-events-none rounded-[2px]" />
       </div>
-      <div className="[word-break:break-word] flex flex-col font-['Pretendard:Regular',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-black whitespace-nowrap" style={{ fontFeatureSettings: '"case"' }}>
+      <div className="[word-break:break-word] flex flex-col font-sans font-normal justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-black whitespace-nowrap" style={{ fontFeatureSettings: '"case"' }}>
         <p className="leading-[1.5]">산소포화도</p>
       </div>
     </div>
@@ -508,7 +508,7 @@ function TouchArea7() {
         <div className="overflow-clip relative rounded-[inherit] size-full" />
         <div aria-hidden className="absolute border-[#b8b8b8] border-[1.5px] border-solid inset-0 pointer-events-none rounded-[2px]" />
       </div>
-      <div className="[word-break:break-word] flex flex-col font-['Pretendard:Regular',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-black whitespace-nowrap" style={{ fontFeatureSettings: '"case"' }}>
+      <div className="[word-break:break-word] flex flex-col font-sans font-normal justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-black whitespace-nowrap" style={{ fontFeatureSettings: '"case"' }}>
         <p className="leading-[1.5]">자율신경기능</p>
       </div>
     </div>
@@ -522,7 +522,7 @@ function TouchArea8() {
         <div className="overflow-clip relative rounded-[inherit] size-full" />
         <div aria-hidden className="absolute border-[#b8b8b8] border-[1.5px] border-solid inset-0 pointer-events-none rounded-[2px]" />
       </div>
-      <div className="[word-break:break-word] flex flex-col font-['Pretendard:Regular',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-black whitespace-nowrap" style={{ fontFeatureSettings: '"case"' }}>
+      <div className="[word-break:break-word] flex flex-col font-sans font-normal justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-black whitespace-nowrap" style={{ fontFeatureSettings: '"case"' }}>
         <p className="leading-[1.5]">자율신경조절</p>
       </div>
     </div>
@@ -536,7 +536,7 @@ function TouchArea9() {
         <div className="overflow-clip relative rounded-[inherit] size-full" />
         <div aria-hidden className="absolute border-[#b8b8b8] border-[1.5px] border-solid inset-0 pointer-events-none rounded-[2px]" />
       </div>
-      <div className="[word-break:break-word] flex flex-col font-['Pretendard:Regular',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-black whitespace-nowrap" style={{ fontFeatureSettings: '"case"' }}>
+      <div className="[word-break:break-word] flex flex-col font-sans font-normal justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-black whitespace-nowrap" style={{ fontFeatureSettings: '"case"' }}>
         <p className="leading-[1.5]">스트레스대처</p>
       </div>
     </div>
@@ -581,7 +581,7 @@ function InputType() {
     <div className="bg-white h-[132px] relative rounded-[6px] shrink-0 w-full" data-name="input-type01">
       <div className="overflow-clip rounded-[inherit] size-full">
         <div className="content-stretch flex gap-[8px] items-start px-[10px] py-[8px] relative size-full">
-          <div className="[word-break:break-word] flex-[1_0_0] font-['Pretendard:Regular',sans-serif] h-full leading-[0] min-w-px not-italic relative text-[14px] text-black" style={{ fontFeatureSettings: '"case"' }}>
+          <div className="[word-break:break-word] flex-[1_0_0] font-sans font-normal h-full leading-[0] min-w-px not-italic relative text-[14px] text-black" style={{ fontFeatureSettings: '"case"' }}>
             <p className="leading-[1.5] mb-0">홍길동 어르신</p>
             <p className="leading-[1.5]">지난주 예약했던 보건소 당화혈색소 정밀 검사 결과(6.5%) 확인 완료</p>
           </div>
@@ -597,7 +597,7 @@ function Frame10() {
   return (
     <div className="content-stretch flex flex-col gap-[4px] items-end justify-end relative shrink-0 w-full">
       <InputType />
-      <div className="[word-break:break-word] flex flex-col font-['Pretendard:Regular',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#8f8f8f] text-[14px] text-right whitespace-nowrap" style={{ fontFeatureSettings: '"case"' }}>
+      <div className="[word-break:break-word] flex flex-col font-sans font-normal justify-center leading-[0] not-italic relative shrink-0 text-[#8f8f8f] text-[14px] text-right whitespace-nowrap" style={{ fontFeatureSettings: '"case"' }}>
         <p>
           <span className="leading-[1.5] text-black">78</span>
           <span className="leading-[1.5]">/1,000byte</span>
@@ -610,7 +610,7 @@ function Frame10() {
 function Frame8() {
   return (
     <div className="content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-full">
-      <div className="[word-break:break-word] flex flex-col font-['Pretendard:Regular',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-black w-full">
+      <div className="[word-break:break-word] flex flex-col font-sans font-normal justify-center leading-[0] not-italic relative shrink-0 text-[14px] text-black w-full">
         <p className="leading-[1.5]">기타 업무</p>
       </div>
       <Frame10 />
@@ -643,7 +643,7 @@ function Frame9() {
             <div aria-hidden className="absolute border border-[#dadde5] border-solid inset-0 pointer-events-none rounded-[4px]" />
             <div className="flex flex-row items-center justify-center size-full">
               <div className="content-stretch flex items-center justify-center px-[16px] py-[10px] relative size-full">
-                <div className="[word-break:break-word] flex flex-col font-['Pretendard:Regular',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[#141414] text-[13px] text-center whitespace-nowrap">
+                <div className="[word-break:break-word] flex flex-col font-sans font-normal justify-center leading-[0] not-italic relative shrink-0 text-[#141414] text-[13px] text-center whitespace-nowrap">
                   <p className="leading-[1.5]">취소</p>
                 </div>
               </div>
@@ -653,7 +653,7 @@ function Frame9() {
             <div aria-hidden className="absolute border border-[#dadde5] border-solid inset-0 pointer-events-none rounded-[4px]" />
             <div className="flex flex-row items-center justify-center size-full">
               <div className="content-stretch flex items-center justify-center px-[16px] py-[10px] relative size-full">
-                <div className="[word-break:break-word] flex flex-col font-['Pretendard:Regular',sans-serif] justify-center leading-[0] not-italic relative shrink-0 text-[13px] text-center text-white whitespace-nowrap">
+                <div className="[word-break:break-word] flex flex-col font-sans font-normal justify-center leading-[0] not-italic relative shrink-0 text-[13px] text-center text-white whitespace-nowrap">
                   <p className="leading-[1.5]">등록</p>
                 </div>
               </div>

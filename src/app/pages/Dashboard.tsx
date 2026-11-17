@@ -9,7 +9,7 @@ export function Dashboard() {
     <div>
       <div className="mb-8">
         <h1 className="text-3xl font-bold text-gray-900 mb-2">메인 대시보드</h1>
-        <p className="text-gray-600">하동군 스마트 경로당 헬스케어 통합 관리 시스템</p>
+        <p className="text-gray-600">스마트 경로당 헬스케어 통합 관리 시스템</p>
       </div>
 
       <DashboardStats />

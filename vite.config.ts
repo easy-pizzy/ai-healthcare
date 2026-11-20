@@ -17,6 +17,9 @@ function figmaAssetResolver() {
 }
 
 export default defineConfig({
+  // GitHub Pages(https://easy-pizzy.github.io/ai-healthcare/)에 올릴 때만 하위 경로를 붙입니다.
+  // 로컬 개발(npm run dev)과 일반 빌드에는 영향이 없습니다.
+  base: process.env.GITHUB_PAGES === 'true' ? '/ai-healthcare/' : '/',
   plugins: [
     figmaAssetResolver(),
     // The React and Tailwind plugins are both required for Make, even if

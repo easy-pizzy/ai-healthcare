@@ -28,4 +28,7 @@ export const router = createBrowserRouter([
       }
     ]
   }
-]);
+], {
+  // GitHub Pages 하위 경로(/ai-healthcare)에서도 주소가 맞도록 설정
+  basename: import.meta.env.BASE_URL.replace(/\/$/, '') || '/',
+});

@@ -6,6 +6,7 @@ import { Typewriter } from './Typewriter';
 import { EmailInquiryModal } from './EmailInquiryModal';
 import { GoogleFormInquiryModal } from './GoogleFormInquiryModal';
 import { KakaoChatModal } from './KakaoChatModal';
+import { AiChatbotWidget } from './AiChatbotWidget';
 import { useState } from 'react';
 
 const scrollToTop = (e: React.MouseEvent<HTMLAnchorElement>) => {
@@ -480,6 +481,7 @@ export function HomePage() {
       <EmailInquiryModal open={openModal === 'email'} onOpenChange={(o) => setOpenModal(o ? 'email' : null)} />
       <GoogleFormInquiryModal open={openModal === 'googleForm'} onOpenChange={(o) => setOpenModal(o ? 'googleForm' : null)} />
       <KakaoChatModal open={openModal === 'kakao'} onOpenChange={(o) => setOpenModal(o ? 'kakao' : null)} />
+      <AiChatbotWidget onContact={scrollToContact} />
     </div>
     </MotionConfig>
   );
